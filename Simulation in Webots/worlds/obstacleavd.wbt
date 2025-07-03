@@ -1,0 +1,80 @@
+#VRML_SIM R2022b utf8
+
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2022b/projects/objects/backgrounds/protos/TexturedBackground.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2022b/projects/objects/backgrounds/protos/TexturedBackgroundLight.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2022b/projects/objects/floors/protos/RectangleArena.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2022b/projects/objects/factory/containers/protos/CardboardBox.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2022b/projects/objects/factory/containers/protos/WoodenBox.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2022b/projects/robots/gctronic/e-puck/protos/E-puck.proto"
+
+WorldInfo {
+}
+Viewpoint {
+  orientation -0.0129770713287913 -0.9996479239108601 -0.023143548570490415 4.945152169610422
+  position -1.4101043823854638 -0.6307260039411104 4.617816772098512
+}
+TexturedBackground {
+}
+TexturedBackgroundLight {
+}
+RectangleArena {
+  translation 0 0.04 0
+  floorSize 1.5 1.5
+  floorTileSize 0.25 0.25
+  wallHeight 0.2
+}
+CardboardBox {
+  translation 0.4330859183325707 0.3735466624474827 0.0996076
+  rotation 5.190308948769226e-15 2.244209046283612e-15 1 0.0066239348092736825
+  size 0.2 0.2 0.2
+  mass 1
+}
+CardboardBox {
+  translation 0.14257499759715733 0.010007377300675533 0.09960760000014492
+  rotation -4.196823026987028e-06 -4.776921895626099e-08 0.999999999991192 1.5992646143857253e-05
+  name "cardboard box(2)"
+  size 0.2 0.2 0.2
+  mass 1
+}
+CardboardBox {
+  translation -0.31486310276805524 0.42152507968012265 0.0996076
+  rotation 1.3072323412469145e-15 -1.5378588000199274e-14 -0.9999999999999999 0.002461904319603104
+  name "cardboard box(1)"
+  size 0.2 0.2 0.2
+  mass 1
+}
+WoodenBox {
+  translation -0.4031568166891686 -0.4381588759573667 0.09960759999999998
+  rotation -1.1493952563045572e-15 9.97353531041837e-16 -1 0.03266918213359277
+  size 0.2 0.2 0.2
+  mass 1
+}
+WoodenBox {
+  translation -0.210012934119412 1.5128874576164815e-06 0.09960753335303754
+  rotation 0.015111365373268676 -0.9063528803278134 -0.42225123203850096 5.303899343536439e-05
+  name "wooden box(2)"
+  size 0.2 0.2 0.2
+  mass 1
+}
+WoodenBox {
+  translation 0.3941803484813539 -0.3989555301832516 0.09960759999999999
+  rotation -3.873952933392797e-14 -4.194833107710758e-14 1 0.0005025037978271073
+  name "wooden box(1)"
+  size 0.2 0.2 0.2
+  mass 1
+}
+E-puck {
+  hidden position_0_0 322.2220818309986
+  hidden position_0_1 381.26202758502296
+  hidden linearVelocity_0 -0.02815426084680815 0.0486009221782984 8.314661696337346e-07
+  hidden angularVelocity_0 -0.002520971758936899 -0.0015839439475920885 0.09650046462719657
+  hidden rotation_1 0 -0.9999999999999999 0 4.503554142339892
+  hidden linearVelocity_1 -0.02690179165378202 0.04643890915936463 -5.1467104800166304e-08
+  hidden angularVelocity_1 -2.3115652265240136 -1.33920222530025 0.09865498836713665
+  hidden rotation_2 0 1 0 4.270909154247775
+  hidden linearVelocity_2 -0.029423752102641927 0.05078954245767911 2.195311079598486e-08
+  hidden angularVelocity_2 -2.5497327147460003 -1.4770026042243944 0.09903247988755419
+  translation 0.6786397025968557 -0.48483209519476833 -6.454548952346435e-05
+  rotation 0.0002144067888649153 -0.00022564588920068011 -0.9999999515568297 -2.0975462248045824
+  controller "obstacleavd"
+}
